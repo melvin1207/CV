@@ -1,0 +1,384 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #fffab3;
+    width: 100%;
+}
+
+aside{
+    position: fixed;
+    left: 1rem;
+    top: 0;
+    background-color: #a2e5d2;
+    height: 67.25rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#cont-foto{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto{
+    border: #fffab3 solid 10px;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+#foto>img{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+#contact{
+    border-top: #fffab3 dotted;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cont-in{
+    width: 90%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #2c2321;
+}
+
+.cont-in>a{
+    text-decoration: none;
+    color: #2c2321;
+}
+
+#skills{
+    border-top: #fffab3 dotted;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logos{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logos>svg{
+    width: 95%;
+    height: 2.5rem;
+}
+
+#graphs{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.graph{
+    background-color: #63b397;
+    width: 100%;
+    height: 2.5rem;
+}
+
+#lvl1{
+    background-color: #fffab3;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lvl2{
+    background-color: #fffab3;
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lvl3{
+    background-color: #fffab3;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lvl4{
+    background-color: #fffab3;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lvl5{
+    background-color: #fffab3;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lvl6{
+    background-color: #fffab3;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lvl7{
+    background-color: #fffab3;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lvl8{
+    background-color: #fffab3;
+    height: 100%;
+    width: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#languages{
+    border-top: #fffab3 dotted;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#graphi{
+    background-color: #63b397;
+    width: 95%;
+    height: 2.5rem;
+}
+
+#lvli{
+    background-color: #fffab3;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    position: fixed;
+    background-color: #a2e5d2;
+    color: #2c2321;
+    left: 16rem;
+    height: 10rem;
+    width: 88%;
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+main{
+    padding: 2rem;
+    background-color: #fffab3;
+    width: 87.9%;
+    position: relative;
+    left: 16rem;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: -1;
+}
+
+.titulo{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 3rem;;
+    color: #63b397;
+}
+
+#perfil{
+    width: 95%;
+    height: auto;
+}
+
+.texto{
+    padding: 1.5rem;
+    border-top: #63b397 dotted;
+    color: #2c2321;
+    font-size: 1.3rem;
+}
+
+#work-experience{
+    width: 95%;
+    height: auto;
+}
+
+#educacion{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#inte{
+    padding: 1.5rem;
+    border-top:  #63b397 dotted;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.inte1{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.escuela{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.escuela>h2{
+    color: rgb(37, 156, 117);
+}
+
+.texto1{
+    color: #2c2321;
+}
+.año{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ae{
+    color: #2c2321;
+}
+
+#puesto-actual{
+    width: 95%;
+    height: auto;
+}
+
+#competencia{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#circles{
+    justify-self: center;
+    align-self: center;
+    border-top: #63b397 dotted;
+    width: 100%;
+    height: 32rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#te{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background-color: #63b397;
+    color: #fffab3;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#crea{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background-color: #b37c63;
+    color: #fffab3;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lide{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background-color: #b363a8;
+    color: #fffab3;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gest{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background-color: #63b36a;
+    color: #fffab3;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carac{
+    width: 95%;
+    height: auto;
+}
